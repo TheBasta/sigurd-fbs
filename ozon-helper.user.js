@@ -1,31 +1,23 @@
 // ==UserScript==
-// @name         WB + Ozon: понятные названия для сборщика
+// @name         Ozon: понятные названия для сборщика
 // @namespace    local.marketplaces.shortnames
 // @version      1.2
-// @description  Заменяет длинные названия на короткие понятные по артикулу. Для WB и Ozon.
+// @description  Заменяет длинные названия на короткие понятные по артикулу. Для Ozon.
 // @author       You
-// @match       
-// https://seller.wildberries.ru/*
-// @match        
-//https://suppliers-shipment.wildberries.ru/*
-// @match        
-//https://*.wildberries.ru/*
 // @match        https://seller.ozon.ru/*
-// @match        
-//https://*.ozon.ru/*
 // @run-at       document-idle
 // @grant        GM_xmlhttpRequest
-// connect      raw.githubusercontent.com
-// connect      github.io
-// connect      jsdelivr.net
-// @updateURL    https://home.bacq.ru:8443/_new/scripts/sigurd/ozon-helper.user.js
-// @downloadURL  https://home.bacq.ru:8443/_new/scripts/sigurd/ozon-helper.user.js
+// @connect      raw.githubusercontent.com
+// @connect      github.io
+// @connect      jsdelivr.net
+// @updateURL    https://github.com/TheBasta/sigurd-fbs/raw/refs/heads/main/ozon-helper.user.js
+// @downloadURL  https://github.com/TheBasta/sigurd-fbs/raw/refs/heads/main/ozon-helper.user.js
 // ==/UserScript==
 
 (function () {
   'use strict';
 
-  const DICTIONARY_URL = 'https://home.bacq.ru:8443/_new/scripts/sigurd/dictionary-ozon.json';
+  const DICTIONARY_URL = 'https://raw.githubusercontent.com/TheBasta/sigurd-fbs/main/dictionary-ozon.json';
   const CACHE_TTL_SECONDS = 300;
   const HIGHLIGHT = true;
 
