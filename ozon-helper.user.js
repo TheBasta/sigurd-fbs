@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Ozon: понятные названия для сборщика
 // @namespace    local.marketplaces.shortnames
-// @version      1.2
+// @version      1.21
 // @description  Заменяет длинные названия на короткие понятные по артикулу. Для Ozon.
-// @author       You
+// @author       Deepseek
 // @match        https://seller.ozon.ru/*
 // @run-at       document-idle
 // @grant        GM_xmlhttpRequest
