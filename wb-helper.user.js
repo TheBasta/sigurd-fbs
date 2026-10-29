@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Автозамена WB наименований для склада
 // @namespace    http://tampermonkey.net
-// @version      1.1030
+// @version      1.1031
 // @description  Автоматически меняет названия товаров на странице на складские артикулы/удобные названия
 // @author       TheBasta
 // @match        https://seller.wildberries.ru/marketplace-orders-fbs/*
